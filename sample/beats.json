@@ -1,0 +1,15 @@
+{
+  "budget": 1,
+  "stale_error_code": "E_STALE_BEAT",
+  "suspect_error_code": "E_NOT_SUSPECT",
+  "node_error_code": "E_NO_NODE",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "nodes": [], "suspected": [], "promotions": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "beat", "name": "a", "at": 5 },
+    { "id": 2, "kind": "beat", "name": "b", "at": 6 },
+    { "id": 3, "kind": "suspect", "name": "b" },
+    { "id": 4, "kind": "promote", "name": "b" },
+    { "id": 5, "kind": "beat", "name": "a", "at": 7 }
+  ]
+}
